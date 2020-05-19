@@ -4,13 +4,12 @@
 
 - **actions** (actions for redux)
 - **assets** (img, fonts etc.)
-- **components** (only re useable part of code)
-- **constans** (only const variable)
-- **entities** (typing for typescript)
+- **components** (only reusable part of code)
+- **constants** (only const variable)
+- **navigation** (navigation logic of the application)
 - **reducers** (all reducers for redux)
 - **screens** (all apps screens (pages))
     - **[FOLDER]** (all you need to single screen)
-- **tools** (reuseable tools)
 
 ## **Usage**
 
@@ -27,8 +26,8 @@
     - expo start --android/ expo start --ios
     - open http://localhost:19002 - Expo DevTools
     - click 'Tunnel' in lower left corner screen
-    - in termin type "?" to open expo help
-    - in termin type "s" and login to your account
+    - in terminal type "?" to open expo help
+    - in terminal type "s" and login to your account
 3. Go to app in your phone
 4. Scan QR code or click on link
 5. Wait for download

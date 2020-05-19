@@ -1,63 +1,29 @@
 import React, { FC } from 'react';
-import { StyleSheet, Text, View, Button, Image } from 'react-native';
-import styled from 'styled-components/native';
+import { View, ScrollView } from 'react-native';
+import { Avatar, Description, About, PersonalInfo } from '../../components/styled';
 
-import Colors from '../../constans/Colors';
-
-const styles = StyleSheet.create({
-  sezeAndPosition: {
-    width: 100,
-    height: 100,
-    marginTop: 30,
-    marginLeft: 30,
-  },
-  name: {
-    color: 'black',
-    marginTop: 20,
-    marginLeft: 30,
-    fontSize: 22,
-  },
-  about: {
-    color: 'black',
-    marginTop: 20,
-    marginLeft: 15,
-    marginRight: 15,
-    fontSize: 18,
-  },
-});
-
-// interface IHomeProps {
-//   name: string;
-
-// }
-
-const Home = () => {
+const HomePage: FC = () => {
   return (
-    <View>
-      <Image style={styles.sezeAndPosition} source={require('../../assets/picture.jpg')} />
-      <Text style={styles.name}>Name Surname</Text>
-      <Text style={styles.about}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic distinctio, doloribus vero eius eveniet maxime, incidunt recusandae aliquid ab soluta voluptatem minima. Earum cumque, facilis ipsa placeat quis optio distinctio.</Text>
-
-    </View>
-
+    <ScrollView>
+      <PersonalInfo>
+        <Avatar source={require('../../assets/portrait.jpg')} />
+        <View>
+          <Description>Oliver Troy</Description>
+          <Description>5 years old</Description>
+          <Description>Vizsla</Description>
+        </View>
+      </PersonalInfo>
+      <About>The Vizsla is a dog breed from Hungary and belongs to the FCI group 7.
+        The Hungarian or Magyar Vizsla are sporting dogs and loyal companions.
+        The Vizsla's medium size is one of the breed's most appealing characteristics.
+        As a hunter of fowl and upland game, the Vizsla has held a prominent position among sporting dogs
+        – that of household companion and family dog.</About>
+      <About>The Vizsla is a natural hunter endowed with an excellent nose and
+        outstanding trainability. It was bred to work in fields, forests or bodies of water.
+        Although they are lively, gentle-mannered, demonstrably affectionate and sensitive, they are also
+        fearless and possess a well-developed protective instinct.</About>
+    </ScrollView>
   );
 };
 
-
-// const NewButton = () => {
-//   const handleClick = () => {
-//     console.log('click')
-//   }
-//   return (
-//     <View>
-//       <Button
-//         title="Press me"
-//         onPress={handleClick}
-//       />
-//     </View>
-
-//   );
-// };
-
-
-export default Home;
+export default HomePage;

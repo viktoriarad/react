@@ -1,12 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f065e70-f6f3-4062-97d3-d5b825e225e1" name="Default Changelist" comment="" />
+    <list default="true" id="0f065e70-f6f3-4062-97d3-d5b825e225e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/types/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/picture1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/picture2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/picture3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/picture4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/picture5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/portrait.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CompleteTaskButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DeleteTaskButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/EditTaskButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/NewTaskButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Task.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TaskList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/styled/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/Colors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/navigation/Home.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/navigation/Info.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/navigation/ToDoList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/ToDoListReducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/EditTask/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/NewTask/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/types/example.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logomin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/picture.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constans/Colors.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constans/Layout.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/example.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Home/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ToDoList/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ToDoList/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/info/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/info/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/BottomNavigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigation/BottomNavigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/ContentNavigation.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/HeaderNavigation.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/store.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn-error.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -15,8 +78,18 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1Z2AI8QOuNx5PlAUOsDqVGsDbwd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\Viktoria\Desktop\wsei-todo-app-master\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Viktoria\Desktop\wsei-todo-app-master\src\navigation" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -30,6 +103,23 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -41,10 +131,26 @@
       <option name="presentableId" value="Default" />
       <updated>1584026732953</updated>
       <workItem from="1584026736567" duration="395000" />
+      <workItem from="1587888837814" duration="30738000" />
+      <workItem from="1588313697044" duration="32000" />
+      <workItem from="1589694585595" duration="58141000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

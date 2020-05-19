@@ -1,11 +1,7 @@
 import { combineReducers } from 'redux';
 
-import example, { IExampleReducer } from './example';
+import ToDoListReducer from './ToDoListReducer';
 
 export default combineReducers({
-    example
+    toDoList: ToDoListReducer,
 });
-
-export interface IState {
-    example: IExampleReducer;
-}

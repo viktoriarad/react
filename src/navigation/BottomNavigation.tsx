@@ -1,22 +1,22 @@
 import React, { FC } from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { Ionicons } from '@expo/vector-icons';
-import Info from '../screens/info';
-import Home from '../screens/Home';
-import ToDoList from '../screens/ToDoList';
-import { MaterialCommunityIcons } from 'react-native-vector-icons';
+import Info from './Info';
+import Home from './Home';
+import ToDoList from './ToDoList';
+import Icon from 'react-native-vector-icons/FontAwesome';
+import {Colors} from '../constants/Colors';
 
 const Tab = createBottomTabNavigator();
 
 const BottomTabs: FC = () => {
   return (
     <Tab.Navigator
-      initialRouteName="Feed"
+      initialRouteName="Home"
       tabBarOptions={{
-        activeTintColor: '#4342EB',
-        inactiveBackgroundColor: '#ffffff',
-        activeBackgroundColor: '#ffffff',
-        inactiveTintColor: '#333333',
+        activeTintColor: Colors.darkBlue,
+        inactiveBackgroundColor: Colors.whiteWash,
+        activeBackgroundColor: Colors.whiteWash,
+        inactiveTintColor: Colors.gray,
       }}
     >
       <Tab.Screen
@@ -25,7 +25,7 @@ const BottomTabs: FC = () => {
         options={{
           tabBarLabel: 'Home',
           tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="home" color={color} size={size} />
+            <Icon name="home" color={color} size={size} />
           ),
         }}
       />
@@ -35,7 +35,7 @@ const BottomTabs: FC = () => {
         options={{
           tabBarLabel: 'To Do List',
           tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="bell" color={color} size={size} />
+            <Icon name="list" color={color} size={size} />
           ),
         }}
       />
@@ -45,13 +45,13 @@ const BottomTabs: FC = () => {
         options={{
           tabBarLabel: 'Info',
           tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="information" color={color} size={size} />
+            <Icon name="info" color={color} size={size} />
           ),
         }}
       />
     </Tab.Navigator>
   )
 
-}
+};
 
 export default BottomTabs;
